@@ -1,0 +1,27 @@
+# Programmer: Emily Bui
+# Course: CS151.01, Professor Franceschi
+# Date: 9/6/2019
+# Lab Assignment: 1
+# Problem Statement: calculates the price of an order of bean burritos and applies a discount depending on how many are ordered
+# Data In: Amount of bean burritos the user wants to order
+# Data Out: a price before discount, followed by a price after discount
+# Other files needed: none
+# Credits: In class
+
+print("Welcome to the Bean Burrito Eatery!")
+print(" ")
+orderNumber = input("How many Bean Burritos will you order?")
+# Calculates the price of burrito before adding discount
+beanBurrito = int(orderNumber)
+beforeDiscount = beanBurrito * 1.99
+
+print(beforeDiscount)
+
+if beanBurrito < 5:
+    print(beforeDiscount)
+if 5 < beanBurrito < 10:
+    print(beforeDiscount * 0.90)
+if 10 < beanBurrito < 50:
+    print(beforeDiscount * 0.80)
+if beanBurrito > 50:
+    print("Out of Stock!")
