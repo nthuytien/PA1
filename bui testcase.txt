@@ -1,0 +1,22 @@
+testcases:
+
+Input: 1
+Outputs: 1.99, 1.99
+
+Input: 3
+Outputs: 5.97, 5.97
+
+Input: 6
+Outputs: 11.94, 10.746
+
+Input: 8
+Outputs: 15.92, 14.328
+
+Input: 17
+Outputs: 33.83, 27.064
+
+Input: 44
+Outputs: 87.56, 70.048
+
+Input: 59
+Outputs: Out of Stock!
